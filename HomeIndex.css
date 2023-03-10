@@ -1,0 +1,62 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+}
+.navbar-brand img {
+  width: 100px;
+  border-radius: 150px;
+}
+.navbar {
+  background-color: #b22830;
+  padding: 0 !important;
+  max-width: 100%;
+}
+input[type="text"] {
+  border: none;
+  height: 30px;
+  margin-top: 10px;
+}
+.nav-item a {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+.account {
+  padding-left: 10px;
+}
+.navbar-nav .nav-item {
+  padding-top: 20px;
+}
+.fa {
+  color: black;
+  padding-right: 10px;
+}
+.nav-link:hover {
+  background-color: #882106;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  position: absolute;
+  display: block;
+  background-color: #53382c;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  margin: -1px;
+}
+.dropdown-menu li a {
+  color: #f1bc7a;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  left: 0;
+}
+.row {
+  margin: 0;
+}
